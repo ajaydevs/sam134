@@ -3,6 +3,6 @@ from .import views
 
 urlpatterns = [
     path('c_home/',views.home),
-     path('profile/',views.profile),
+     path('profile/',views.user_profile),
    
 ]
